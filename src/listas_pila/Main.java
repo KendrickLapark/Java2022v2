@@ -3,7 +3,7 @@ package listas_pila;
 public class Main {
 
 	/*
-	 * Ejercicio matrices curso javaya. 31. Listas tipo pila (LIFO Last In First Out).
+	 * 	Ejercicio matrices curso javaya. 31. Listas tipo pila (LIFO Last In First Out).
 	 * 
 	 * URL: https://www.tutorialesprogramacionya.com/javaya/detalleconcepto.php?punto=42&codigo=115&inicio=40
 	 * 
