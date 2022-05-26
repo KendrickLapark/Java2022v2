@@ -70,7 +70,7 @@ public class ListaGenerica {
 		
 	}
 	
-	public int cantidad () {
+	public int cantidad() {
 		
 		int cont = 0;
 		
@@ -87,7 +87,7 @@ public class ListaGenerica {
 		
 	}
 	
-	public int extraer (int pos) {
+	public int extraer(int pos) {
 	
 		if(pos <= cantidad ()) {
 			
@@ -122,7 +122,7 @@ public class ListaGenerica {
 		
 	}
 	
-	public void borrar (int pos) {
+	public void borrar(int pos) {
 		
 		if (pos <= cantidad()) {
 			
@@ -150,7 +150,7 @@ public class ListaGenerica {
 		
 	}
 	
-	public void intercambiar (int pos1, int pos2) {
+	public void intercambiar(int pos1, int pos2) {
 		
 		if (pos1 <= cantidad() && pos2 <= cantidad()) {
 			
@@ -177,7 +177,7 @@ public class ListaGenerica {
 		
 	}
 	
-	public int mayor () {
+	public int mayor() {
 		
 		int infoMayor;
 		
@@ -260,7 +260,7 @@ public class ListaGenerica {
 		
 	}
 	
-	public boolean existe (int consultaInfo) {
+	public boolean existe(int consultaInfo) {
 		
 		if(!vacia()) {
 			
