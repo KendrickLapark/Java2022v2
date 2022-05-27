@@ -2,7 +2,7 @@ package listaGenericaDoblementeEncadenada;
 
 public class ListaGenericaDoblementeEncadenada {
 
-	Nodo raiz;
+	private Nodo raiz;
 	
 	public ListaGenericaDoblementeEncadenada() {
 		
@@ -215,29 +215,29 @@ public class ListaGenericaDoblementeEncadenada {
 	
 	public int posMayor() {
 		
-	int aux = 0;
-	int cont = 0;
-	int posicion = 1;
-			
-		if(!vacio()) {
-			
-			Nodo reco = raiz;
-			
-			while (reco.siguiente != null) {
-	
-				cont ++;
+		int aux = 0;
+		int cont = 0;
+		int posicion = 1;
 				
-				if(reco.informacion > aux) {
-					aux = reco.informacion;
-					posicion = cont;
+			if(!vacio()) {
+				
+				Nodo reco = raiz;
+				
+				while (reco.siguiente != null) {
+		
+					cont ++;
+					
+					if(reco.informacion > aux) {
+						aux = reco.informacion;
+						posicion = cont;
+					}
+					reco = reco.siguiente;
+					
 				}
-				reco = reco.siguiente;
 				
+				return posicion;
 			}
-			
-			return posicion;
-		}
-		return Integer.MAX_VALUE;
+			return Integer.MAX_VALUE;
 	
 	}
 	

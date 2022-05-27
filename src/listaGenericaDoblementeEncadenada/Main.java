@@ -7,7 +7,7 @@ public class Main {
 	 * 
 	 * URL : https://www.tutorialesprogramacionya.com/javaya/detalleconcepto.php?punto=48&codigo=121&inicio=40
 	 * 
-	 * 
+	 * Ejemplo de la página
 	 */
 	
 	public static void main(String[] args) {
